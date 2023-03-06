@@ -1,4 +1,4 @@
-import React, { useState, useContext } from 'react';
+import React, { useState } from 'react';
 import { Container, Navbar } from 'react-bootstrap';
 import './App.css';
 import MainMenu from './Components/MainMenu';

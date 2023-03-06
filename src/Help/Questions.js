@@ -21,7 +21,7 @@ export const QuestionsQuiz = [
             OptionA: "if i = 5 then",
             OptionB: "if i == 5 then",
             OptionC: "if (i == 5)",
-            OptionD: "if i = 5",
+            OptionD: "if i = 5", 
             answer: "C",            
         },
         {            

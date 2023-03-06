@@ -11,7 +11,7 @@ function Quiz() {
 
 
   const nextQuestion =()=>{
-    if(QuestionsQuiz[currQuest].answer == optionChoise){
+    if(QuestionsQuiz[currQuest].answer == optionChoise){ 
       setScore(score + 1)
     }
     
