@@ -1,38 +1,64 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.QuizApp{
+  margin-top: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Title{
+  font-weight: bold;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Menu, 
+.Quiz,
+.EndScreen{
+  width: 750px;
+  height: 500px;
+  border-radius: 10px;
+  background-color: lightseagreen;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+.Menu Button,
+.Quiz Button,
+.EndScreen Button
+{ 
+  width: 300px;
+  height: 50px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+
+}
+
+.Menu, 
+.Quiz,
+.EndScreen{
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.Options{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Options :hover{
+  background-color: #85CDFD;
+}
+.Options :focus{
+  background-color: #537FE7;
+}
+.quest{
+  font-size: 23px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.startBtn Button:hover{
+  background-color: #028347;
 }
